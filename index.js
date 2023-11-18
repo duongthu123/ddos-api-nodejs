@@ -57,10 +57,6 @@ if (!key || !url || !time || !method) {
                         console.log('http-load is running');
                     });
                     }
-                    /*var exec = require('child_process').exec
-                        exec(`py SMS.py 0365494577 60`, (error, stdout, stderr) => {  
-                        console.log('');
-                    });*/
                 } else {
                     const err_method = {
                         message: `sai method`,
