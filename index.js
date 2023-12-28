@@ -19,7 +19,7 @@ const currentTime = Date.now();
     return res.status(400).send(err_u);
   }
 
-  if (key !== 'asps-api-l7') {
+  if (key !== '1234') {
     const err_key = {
       message: `sai key`,
       code: '401'
