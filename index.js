@@ -4,7 +4,7 @@ const port = 9081;
 var exec = require('child_process').exec
 let lastAPICallTime = Date.now();
 
-app.get('/api/attack', (req, res) => {
+app.get('/', (req, res) => {
 const currentTime = Date.now();
   const cooldown = 60 * 1000
   const clientIP = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
